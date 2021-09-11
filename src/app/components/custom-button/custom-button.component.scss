@@ -1,0 +1,12 @@
+@import '/src/styles/material.scss';
+
+$dark-background-color: map-get($darkTheme, background, background);
+
+button {
+    padding: 10px;
+    border: 2px solid white;    
+    font-family: "Space Grotesk";
+    background-color: white;
+    color: $dark-background-color;
+    font-weight: bold;
+}
